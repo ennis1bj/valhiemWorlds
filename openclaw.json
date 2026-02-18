@@ -1,0 +1,20 @@
+{
+  "gateway": {
+    "mode": "local",
+    "port": 18789
+  },
+  "agents": {
+    "defaults": {
+      "model": "ollama/llama3.1:8b",
+      "thinkingDefault": "low"
+    }
+  },
+  "skills": {
+    "exclude": [
+      "sessions",
+      "chat_management",
+      "blockchain",
+      "social_media"
+    ]
+  }
+}
